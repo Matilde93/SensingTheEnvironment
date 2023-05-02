@@ -10,7 +10,7 @@ namespace SensingTheEnvironment.Repositories
         {
             _repository = new List<SensorData>()
             {
-                new SensorData() {Temperature = 24.6f, Pressure = 945.78f, Humidity = 31.43f}
+                new SensorData() {DateTime = "12/04/2023 12:08:10", Temperature = 24.6f, Pressure = 945.78f, Humidity = 31.43f}
             };
         }
 
